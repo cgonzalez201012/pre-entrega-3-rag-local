@@ -1,0 +1,59 @@
+{
+  "pregunta": "¿Cuántos miembros hacen falta para que sesione el Comité de Gobierno de Datos?",
+  "respuesta": "Se necesita quórum de tres de los cinco miembros para que sesione el Comité de Gobierno de Datos.",
+  "encontrada": true,
+  "fuentes": [
+    {
+      "referencia": 1,
+      "archivo": "02-roles-y-responsabilidades.md",
+      "seccion": "1. Propósito / 2. Comité de Gobierno de Datos",
+      "chunk_id": "e46bdfdf6ef730c1",
+      "distancia": 0.290194034576416,
+      "texto": "# Roles y Responsabilidades de Gobierno de Datos\n\n**Código:** GD-ROL-001 · **Versión:** 1.3 · **Vigencia:** desde el 1 de marzo de 2026 · **Propietario:** Líder de Gobierno de Datos de Mercado Austral S.A.\n\n> Documento ficticio con fines didácticos. Mercado Austral S.A. es una empresa inventada para el dataset de la pre-entrega 3 del curso de AI Engineering.\n\n## 1. Propósito\n\nEste documento define quién decide, quién ejecuta y quién controla cada aspecto del gobierno de datos en Mercado Austral S.A. Complementa a la Política de Calidad de Datos (GD-POL-001) y al Procedimiento de Alta y Mantenimiento del Maestro de Artículos (GD-PRO-003). Su objetivo es que cada dato crítico tenga un responsable identificable y que ningún incidente quede sin dueño.\n\n## 2. Comité de Gobierno de Datos\n\nEl Comité es la máxima instancia de decisión en materia de datos. Tiene cinco miembros con voto: el Gerente de Sistemas, que lo preside, el Gerente Comercial, el Gerente de Operaciones, el Gerente de Finanzas y el Gerente de Compras. El Líder de Gobierno de Datos actúa como secretario: convoca las reuniones, prepara la agenda y redacta el acta, con voz pero sin voto.\n\nEl Comité se reúne de forma ordinaria el segundo martes de cada mes. Para sesionar se necesita quórum de tres de los cinco miembros, y las decisiones se toman por mayoría simple. En caso de empate, desempata el presidente. Una reunión extraordinaria puede ser convocada por el presidente o por dos miembros, con al menos 48 horas de anticipación.\n\nEntre sus responsabilidades están aprobar y revisar las políticas, aprobar las excepciones a los umbrales de calidad, priorizar las iniciativas de datos, designar a los Data Owners y resolver los escalamientos de nivel 3."
+    }
+  ],
+  "recuperados": [
+    {
+      "referencia": 1,
+      "archivo": "02-roles-y-responsabilidades.md",
+      "seccion": "1. Propósito / 2. Comité de Gobierno de Datos",
+      "chunk_id": "e46bdfdf6ef730c1",
+      "distancia": 0.290194034576416,
+      "texto": "# Roles y Responsabilidades de Gobierno de Datos\n\n**Código:** GD-ROL-001 · **Versión:** 1.3 · **Vigencia:** desde el 1 de marzo de 2026 · **Propietario:** Líder de Gobierno de Datos de Mercado Austral S.A.\n\n> Documento ficticio con fines didácticos. Mercado Austral S.A. es una empresa inventada para el dataset de la pre-entrega 3 del curso de AI Engineering.\n\n## 1. Propósito\n\nEste documento define quién decide, quién ejecuta y quién controla cada aspecto del gobierno de datos en Mercado Austral S.A. Complementa a la Política de Calidad de Datos (GD-POL-001) y al Procedimiento de Alta y Mantenimiento del Maestro de Artículos (GD-PRO-003). Su objetivo es que cada dato crítico tenga un responsable identificable y que ningún incidente quede sin dueño.\n\n## 2. Comité de Gobierno de Datos\n\nEl Comité es la máxima instancia de decisión en materia de datos. Tiene cinco miembros con voto: el Gerente de Sistemas, que lo preside, el Gerente Comercial, el Gerente de Operaciones, el Gerente de Finanzas y el Gerente de Compras. El Líder de Gobierno de Datos actúa como secretario: convoca las reuniones, prepara la agenda y redacta el acta, con voz pero sin voto.\n\nEl Comité se reúne de forma ordinaria el segundo martes de cada mes. Para sesionar se necesita quórum de tres de los cinco miembros, y las decisiones se toman por mayoría simple. En caso de empate, desempata el presidente. Una reunión extraordinaria puede ser convocada por el presidente o por dos miembros, con al menos 48 horas de anticipación.\n\nEntre sus responsabilidades están aprobar y revisar las políticas, aprobar las excepciones a los umbrales de calidad, priorizar las iniciativas de datos, designar a los Data Owners y resolver los escalamientos de nivel 3."
+    },
+    {
+      "referencia": 2,
+      "archivo": "02-roles-y-responsabilidades.md",
+      "seccion": "10. Escalamiento de incidentes / 11. Historial de versiones",
+      "chunk_id": "b90380eba30209f4",
+      "distancia": 0.3066006302833557,
+      "texto": "## 10. Escalamiento de incidentes\n\nEl escalamiento tiene tres niveles. En el nivel 1, el Data Steward tiene 1 día hábil para resolver el incidente o escalarlo. En el nivel 2, el Data Owner tiene 3 días hábiles para resolverlo. En el nivel 3, el incidente pasa al Comité, que lo trata en la próxima reunión ordinaria o, si se trata de un incidente grave, en una reunión extraordinaria dentro de los 5 días hábiles.\n\nLos incidentes críticos, que según la política de calidad deben resolverse en 4 horas hábiles, se escalan al Data Owner de inmediato, sin esperar a que venza el plazo del nivel 1.\n\n## 11. Historial de versiones\n\n- **1.3 (1 de marzo de 2026):** se incorporó la regla de capacitación obligatoria de 16 horas para los Data Stewards.\n- **1.2 (1 de septiembre de 2025):** se agregó la matriz de responsabilidades.\n- **1.0 (1 de marzo de 2025):** versión inicial."
+    },
+    {
+      "referencia": 3,
+      "archivo": "01-politica-calidad-de-datos.md",
+      "seccion": "5. Plan de remediación / 6. Excepciones / 7. Revisión de la política y auditoría / ...",
+      "chunk_id": "f3ce5a4cf00f553f",
+      "distancia": 0.31604963541030884,
+      "texto": "## 5. Plan de remediación\n\nCuando una dimensión de calidad de un maestro queda por debajo de su umbral durante dos meses consecutivos, el Data Owner del dominio debe presentar al Comité un plan de remediación dentro de los 10 días hábiles siguientes a la publicación del segundo scorecard. El plan debe incluir la causa raíz, las acciones correctivas, los responsables y las fechas comprometidas.\n\nEl Comité hace seguimiento del plan en cada reunión mensual hasta que la dimensión vuelva a superar su umbral durante dos meses seguidos. Recién entonces el plan se da por cerrado.\n\n## 6. Excepciones\n\nUn Data Owner puede solicitar una excepción temporal a un umbral cuando exista una causa justificada, como una migración de sistemas. La excepción debe pedirse por escrito, ser aprobada por el Comité y tener una fecha de vencimiento que no supere los 90 días corridos. Una excepción se puede renovar una sola vez, con una nueva aprobación del Comité.\n\n## 7. Revisión de la política y auditoría\n\nLa política se revisa cada seis meses. Además, la Auditoría Interna realiza una vez por año una auditoría de calidad de datos sobre una muestra de registros de cada dominio y presenta sus hallazgos al Comité de Gobierno de Datos.\n\n## 8. Historial de versiones\n\n- **2.1 (1 de marzo de 2026):** se incorporó la dimensión de oportunidad y se redujo a 4 horas hábiles el plazo de los incidentes críticos, que antes era de 8 horas hábiles.\n- **2.0 (1 de septiembre de 2025):** se agregó el plan de remediación obligatorio.\n- **1.0 (1 de marzo de 2025):** versión inicial de la política."
+    },
+    {
+      "referencia": 4,
+      "archivo": "02-roles-y-responsabilidades.md",
+      "seccion": "3. Líder de Gobierno de Datos / 4. Data Owner / 5. Data Steward",
+      "chunk_id": "4d73e1d08b1a3c7a",
+      "distancia": 0.3165401816368103,
+      "texto": "## 3. Líder de Gobierno de Datos\n\nEl Líder de Gobierno de Datos reporta al Gerente de Sistemas y cuenta con un equipo de analistas. Mantiene actualizadas las políticas y procedimientos, consolida los scorecards mensuales de calidad, coordina a los Data Stewards, administra el catálogo de datos y dirige el programa de capacitación. No es dueño de ningún dominio de datos: su rol es facilitar y controlar, no decidir sobre el contenido de los maestros.\n\n## 4. Data Owner\n\nEl Data Owner es el ejecutivo responsable, ante el Comité, por la calidad y el uso adecuado de los datos de un dominio. Cada dominio tiene un único Data Owner, y una misma persona puede serlo de hasta dos dominios.\n\n| Dominio de datos | Data Owner |\n|---|---|\n| Artículos | Gerente Comercial |\n| Proveedores | Gerente de Compras |\n| Clientes de fidelización | Gerente de Marketing |\n| Sucursales y estructura organizacional | Gerente de Operaciones |\n| Plan de cuentas | Gerente de Finanzas |\n\nEl Data Owner define las reglas de negocio del dominio, aprueba los accesos de nivel restringido, aprueba las altas de artículos de marca propia, presenta los planes de remediación y designa a los Data Stewards de su dominio.\n\n## 5. Data Steward\n\nEl Data Steward es quien opera el dominio día a día. Cada dominio tiene un Data Steward titular y uno suplente, designados por el Data Owner. Sus funciones son revisar cada mañana las alertas de calidad, aprobar o rechazar las solicitudes de alta y modificación dentro de 1 día hábil, publicar el scorecard mensual, mantener la ficha del dominio en el catálogo de datos y actuar como primer nivel de escalamiento.\n\nTodo Data Steward nuevo debe completar un curso de capacitación de 16 horas durante los primeros 30 días desde su designación. Hasta completarlo, no puede aprobar altas de forma individual."
+    }
+  ],
+  "modelo_llm": "claude-haiku-4-5",
+  "modelo_embeddings": "gemini-embedding-001",
+  "metricas": {
+    "recuperacion_s": 0.476,
+    "generacion_s": 1.424,
+    "total_s": 1.899,
+    "intentos": 1,
+    "tokens_entrada": 2724,
+    "tokens_salida": 63
+  }
+}

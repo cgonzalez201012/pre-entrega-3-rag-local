@@ -1,0 +1,11 @@
+
+Ingesta completa: la base ya estaba al dia (no se escribio nada)
+  Archivos leidos ....... 4
+  Fragmentos vigentes ... 17
+  Nuevos (embebidos) .... 0
+  Sin cambios ........... 17
+  Eliminados ............ 0
+  Tokens por fragmento .. min 61 / prom 367.5 / max 492
+  Medicion de tokens .... tiktoken/cl100k_base
+  Modelo de embeddings .. gemini-embedding-001
+  Base en disco ......... ./vectorstore (coleccion 'gobierno_de_datos')

@@ -1,0 +1,16 @@
+# Secretos
+.env
+
+# Entornos y caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+
+# Base vectorial local: se regenera con `python ingest.py`
+vectorstore/
+
+# Salidas de pruebas manuales
+salida-*.txt
+.DS_Store

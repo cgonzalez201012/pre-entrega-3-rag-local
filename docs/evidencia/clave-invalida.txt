@@ -1,0 +1,2 @@
+ERROR rag: Error de proveedor: AnthropicAuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'Invalid bearer token'}, 'request_id': 'req_011CgV3UthD5eZ2SEnzQpBgG'}
+ERROR: Claude rechazo la clave. Revisa ANTHROPIC_API_KEY en el .env.
